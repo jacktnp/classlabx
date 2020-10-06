@@ -11,6 +11,9 @@ var checkinSchema = mongoose.Schema({
     section: {
         type: Number, required: true
     },
+    room: {
+        type: String, required: true
+    },
     lab: {
         type: Number, required: true
     }
