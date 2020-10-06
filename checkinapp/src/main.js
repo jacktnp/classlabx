@@ -14,6 +14,10 @@ import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)
 
+import Loading from 'vue-loading-overlay';
+
+Vue.use(Loading)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
